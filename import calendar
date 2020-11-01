@@ -1,0 +1,33 @@
+import calendar as cal
+import datetime
+import time
+
+#print the days. Start with monday
+print(cal.weekheader(3))
+#print the first day matrix
+print(cal.firstweekday())
+#print the calendar for 2020 november
+print(cal.month(2020, 11))
+
+# print the matrix as array
+print(cal.monthcalendar(2020, 11))
+
+# print the entire year
+print(cal.calendar(2020))
+
+#print of the day
+day_of_the_week = cal.weekday(2020,11,1)
+print(day_of_the_week)
+
+
+#check the leap year
+is_leap = cal.isleap(2020)
+print(is_leap)
+
+#check leap year
+how_may_leap_year = cal.leapdays(2000,2021)
+print(how_may_leap_year)
+
+#check leap year
+how_may_leap_year = cal.leapdays(2000,2005)
+print(how_may_leap_year)
