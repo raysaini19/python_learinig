@@ -1,0 +1,24 @@
+import turtle
+qazi_turtle = turtle.Turtle()
+
+def square():
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+
+
+a = 10
+b = 5
+
+#if-else conditions. Based on True and false. 
+
+if a < b:
+  square()
+else:
+  qazi_turtle.right(200)
+  square()
