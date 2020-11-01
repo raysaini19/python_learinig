@@ -1,0 +1,17 @@
+import turtle
+qazi_turtle = turtle.Turtle()
+
+def square():
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+    qazi_turtle.forward(100)
+    qazi_turtle.right(90)
+
+a = "happy"
+while True:
+    qazi_turtle.forward(10)
+
